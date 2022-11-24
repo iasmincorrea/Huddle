@@ -15,6 +15,55 @@
   margin: 0 auto;
 }
 
+/* COMMUNITY */
+.community {
+  box-shadow: 0px 3px 6px #00000029;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto -80px auto;
+  left: 0;
+  right: 0;
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  padding: 50px;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+}
+
+.community-title {
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 30px;
+}
+@media (min-width: 1026px) {
+  .community-title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
+
+.community-link {
+  background: hsl(322, 100%, 66%);
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  border-radius: 60px;
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 25px;
+  box-shadow: 0px 3px 6px #00000029;
+  transition: 0.2s linear;
+}
+
+.community-link:hover {
+  background: hsl(322deg 92% 49%);
+}
+/* FIM COMMUNITY */
+
 /* FOOTER */
 .footer {
   background: hsl(192, 100%, 9%);
