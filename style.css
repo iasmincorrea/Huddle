@@ -75,7 +75,7 @@
     padding: 10px;
   }
 }
-/* FIM HEADER */
+/* HEADER */
 
 /* BANNER */
 .banner {
@@ -178,7 +178,7 @@
     margin: 0 auto;
   }
 }
-/* FIM BANNER */
+/* BANNER */
 
 /* CARDS */
 .card-content {
@@ -248,7 +248,7 @@
 .card-image {
   width: 100%;
 }
-/* FIM CARDS */
+/* CARDS */
 
 /* COMMUNITY */
 .community-content {
@@ -324,7 +324,7 @@
     padding: 20px;
   }
 }
-/* FIM COMMUNITY */
+/* COMMUNITY */
 
 /* FOOTER */
 .footer {
@@ -411,6 +411,7 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  text-align: center;
 }
 @media (max-width: 1025px) {
   .footer-columns__social {
@@ -464,4 +465,4 @@
     text-align: center;
   }
 }
-/* FIM FOOTER */
+/* FOOTER */
